@@ -9,7 +9,7 @@
                         <img src="assets/images/icons/footer-plane.svg" class="footer-plane" alt="image">
                         <div class="footer1-logo">
                             <img src="assets/images/icons/footer1-logo.svg" alt="image">
-                            <p>Since: 2022</p>
+                            <p>Since: <?= $datestarted ?></p>
                         </div>
                         <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 400 400">
                             <defs>
@@ -28,8 +28,8 @@
                     <div class="footer-item">
                         <h4>Information</h4>
                         <ul class="link-list">
-                            <li><a href="about.php">About Company</a></li>
-                            <li><a href="faq.php">Online Query</a></li>
+                            <li><a href="about.php">About Kendi Travel</a></li>
+                            <li><a href="faq.php">FAQ</a></li>
                             <li><a href="contact.php">Become Partner</a></li>
                             <li><a href="contact.php">Help & Support</a></li>
                             <li><a href="contact.php">Contact</a></li>
@@ -40,11 +40,10 @@
                     <div class="footer-item">
                         <h4>Destinations</h4>
                         <ul class="link-list">
+
+                            <!-- loops system destinations -->
                             <li><a href="destination-details.php">Switzerland</a></li>
-                            <li><a href="destination-details.php">Beauty of Paris</a></li>
-                            <li><a href="destination-details.php">United States</a></li>
-                            <li><a href="destination-details.php">Wiesbaden Sea</a></li>
-                            <li><a href="destination-details.php">Bangladesh</a></li>
+                           
                         </ul>
                     </div>
                 </div>
@@ -57,8 +56,8 @@
                                     <i class="bi bi-telephone"></i>
                                 </div>
                                 <div class="text">
-                                    <a href="tel:+8801761111456">+880 176 1111 456</a> 
-                                    <a href="tel:+8801761111457">+880 176 1111 457</a> 
+                                    <a href="tel:<?= $siteemail2 ?>"><?= $siteemail2 ?></a> 
+                                    <a href="tel:<?= $siteemail2 ?>"><?= $siteemail2 ?></a> 
                                 </div>
                             </li>
                             <li>
@@ -66,8 +65,8 @@
                                     <i class="bi bi-envelope"></i>
                                 </div>
                                 <div class="text">
-                                    <a href="mailto:info@example.com">info@example.com</a>
-                                    <a href="mailto:support@example.com">support@example.com</a>
+                                    <a href="mailto:<?= $sitephoneno1 ?>"><?= $sitephoneno1 ?></a>
+                                    <a href="mailto:<?= $sitephoneno2 ?>"><?= $sitephoneno2 ?></a>
                                 </div>
                             </li>
                             <li>
@@ -75,7 +74,7 @@
                                     <i class="bi bi-geo-alt"></i>
                                 </div>
                                 <div class="text">
-                                    168/170, Avenue 01, Mirpur DOHS, Bangladesh
+                                    <?= $address1 ?>
                                 </div>
                             </li>
                         </ul>
@@ -109,12 +108,12 @@
        <div class="footer-bottom">
             <div class="row d-flex align-items-center g-3">
                 <div class="col-lg-6 d-flex justify-content-lg-start justify-content-center text-lg-start text-center px-1">
-                    <p>Copyright 2022 <a href="#" class="egns-lab">Kendi Travel </a> | Design By <a href="https://themeforest.net/category/site-templates?term=egenslab" class="egns-lab">Egens Lab</a></p>
+                    <p>Copyright <?= $siteyear ?> <a href="./" class="egns-lab">Kendi Travel </a> | Made By <a href="#" class="egns-lab">Eyo</a></p>
                 </div>
                 <div class="col-lg-6 d-flex justify-content-lg-end justify-content-center align-items-center">
                     <ul class="f-bottom-list d-flex jusify-content-start align-items-center">
-                        <li><a href="#">Privacy Policy</a></li>
-                        <li><a href="#">Terms of Use</a></li>
+                        <li><a href="privacy.php">Privacy Policy</a></li>
+                        <li><a href="termsofuse.php">Terms of Use</a></li>
                     </ul>
                 </div>
             </div>

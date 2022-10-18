@@ -1,3 +1,6 @@
+<?php
+    require "globalvar.php";
+?>
 <!DOCTYPE html>
 <html lang="en">
 

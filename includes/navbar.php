@@ -81,29 +81,16 @@
                 </div>
                 <ul class="menu-list">
                     <li class="menu-item-has-children">
-                        <a href="index.php" class="drop-down active">Home</a><i class='bi bi-chevron-down dropdown-icon'></i>
-                        <ul class="sub-menu">
-                            <li><a href="index.php">Travel Agency 01</a></li>
-                            <li><a href="index-travel2.php">Travel Agency 02</a></li>
-                            <li><a href="index-city-tour.php">City Tour</a></li>
-                            <li><a href="index-adventure.php">Adventure</a></li>
-                            <li><a href="index-wildlife.php">Wild life</a></li>
-                        </ul>
+                        <a href="index.php" class="drop-down active">Home</a>
                     </li>
                     <li class="menu-item-has-children">
-                        <a href="destination.php" class="drop-down">Destination</a><i class='bi bi-chevron-down dropdown-icon'></i>
-                        <ul class="sub-menu">
-                            <li><a href="destination.php">Destination</a></li>
-                            <li><a href="destination-details.php">Destination Details</a></li>
-                        </ul>
+                        <a href="destination.php">Destinations</a></i>
                     </li>
                     <li class="menu-item-has-children">
                         <a href="blog-grid.php">Tours</a><i class='bi bi-chevron-down dropdown-icon'></i>
                         <ul class="sub-menu">
                             <li><a href="tour-package.php">Tour Package 1</a></li>
                             <li><a href="tour-package2.php">Tour Package 2</a></li>
-                            <li><a href="tour-package-sidebar.php">Package Sidebar</a></li>
-                            <li><a href="tour-package-details.php">Package Details</a></li>
                         </ul>
                     </li>
                     <li class="menu-item-has-children">
@@ -111,27 +98,11 @@
                         <ul class="sub-menu">
                             <li><a href="about.php">About Us</a></li>
                             <li><a href="tour-guide.php">Tour Guide</a></li>
-                            <li><a href="gallery.php">Gallery</a></li>
                             <li><a href="faq.php">Faq</a></li>
-                            <li><a href="error.php">Error</a></li>
-                            <li><a href="error.php">Submenu</a><i class='d-lg-flex d-none bi bi-chevron-right dropdown-icon'></i><i class='d-lg-none d-flex bi bi-chevron-down dropdown-icon'></i>
-                                <ul class="sub-menu">
-                                    <li><a href="about.php">Children 1</a></li> 
-                                    <li><a href="team.php">Children 2</a></li>
-                                    <li><a href="faq.php">Children 3</a></li>
-                                    <li><a href="error.php">Children 4</a>
-                                    </li>
-                                </ul>
-                            </li>
                         </ul>
                     </li>
                     <li class="menu-item-has-children">
-                        <a href="blog-grid.php">Blog</a><i class='bi bi-chevron-down dropdown-icon'></i>
-                        <ul class="sub-menu">
-                            <li><a href="blog-grid.php">Blog Grid</a></li>
-                            <li><a href="blog-standard.php">Blog Standard</a></li>
-                            <li><a href="blog-details.php">Blog Details</a></li>
-                        </ul>
+                        <a href="blog-grid.php">Blog</a>
                     </li>
                     <li><a href="contact.php">Contact Us</a></li>
                 </ul>
@@ -147,10 +118,9 @@
                     </div>
                     <div class="number">
                         <span>Call Now</span>
-                        <h5><a href="tel:+8801701111000">+880 170 1111 000</a></h5>
+                        <h5><a href="tel:<?= $sitephoneno1 ?>"><?= $sitephoneno1 ?></a></h5>
                     </div>
                 </div>
-                <a href="tour-package-details.php" class="eg-btn btn--primary btn--lg d-lg-none d-flex mt-5">Book A Trip</a>
             </div>
     
             <div class="nav-right d-flex jsutify-content-end align-items-center gap-5">
@@ -164,7 +134,7 @@
                     </div>
                     <div class="number">
                         <span>Call Now</span>
-                        <h5><a href="tel:+8801701111000">+880 170 1111 000</a></h5>
+                        <h5><a href="tel:<?= $sitephoneno1 ?>"><?= $sitephoneno1 ?></a></h5>
                     </div>
                 </div>
                 <div class="mobile-menu-btn d-lg-none d-block">

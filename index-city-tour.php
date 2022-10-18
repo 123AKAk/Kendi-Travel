@@ -1,49 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kendi Travel - Tour Booking and Travel Agency HTML Template</title>
-    
-    <link rel="icon" href="assets/images/icons/logo-icon.svg" type="image/gif" sizes="20x20">
-
-    <link rel="stylesheet" href="assets/css/animate.css">
-    <!-- css file link -->
-    <link rel="stylesheet" href="assets/css/all.css">
-
-    <!-- bootstrap 5 -->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-
-    <!-- box-icon -->
-    <link rel="stylesheet" href="assets/css/boxicons.min.css">
-
-    <!-- bootstrap icon -->
-    <link rel="stylesheet" href="assets/css/bootstrap-icons.css">
-
-    <!-- jquery ui -->
-    <link rel="stylesheet" href="assets/css/jquery-ui.css">
-
-    <!-- swiper-slide -->
-    <link rel="stylesheet" href="assets/css/swiper-bundle.css">
-
-    <!-- nice-select -->
-    <link rel="stylesheet" href="assets/css/nice-select.css">
-
-    <!-- Select2 css -->
-    <link rel="stylesheet" href="assets/css/select2.min.css">
-
-    <!-- animate css -->
-    <link rel="stylesheet" href="assets/css/magnific-popup.css">
-
-    <!-- odometer css -->
-    <link rel="stylesheet" href="assets/css/odometer.css">
-
-    <!-- style css -->
-    <link rel="stylesheet" href="assets/css/style.css">
-</head>
-
+<?php
+    require "includes/header.php";
+?>
 <body>
     <!-- preloader -->
     <div class="home2preloader">
@@ -1070,18 +1027,8 @@
         </div>
     </div>
 
-    <!-- js file link -->
-    <script src="assets/js/jquery-3.6.0.min.js"></script>
-    <script src="assets/js/jquery-ui.js"></script>
-    <script src="assets/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/js/swiper-bundle.min.js"></script>
-    <script src="assets/js/jquery.nice-select.js"></script>
-    <script src="assets/js/odometer.min.js"></script>
-    <script src="assets/js/viewport.jquery.js"></script>
-    <script src="assets/js/jquery.magnific-popup.min.js"></script>
-    <script src="assets/js/isotope.pkgd.min.js"></script>
-    <script src="assets/js/main.js"></script>
 
-</body>
 
-</html>
+<?php
+  require "includes/scripts.php";
+?>
